@@ -1,0 +1,23 @@
+<div id="logreg-forms">
+    <form class="form-signin" (ngSubmit)="login()" [formGroup]="formLogin">
+        <h1 class="h3 mb-3 font-weight-normal" style="text-align: center">Đăng nhập tài khoản</h1>
+        <input 
+            id="input-user"
+            name="username"
+            placeholder="Tài khoản"
+            type="text"
+            formControlName="userName"
+            class="form-control" 
+            required="" autofocus=""
+        >
+        <input 
+            id="input-password"
+            name="password"
+            placeholder="Mật khẩu"
+            type="password"
+            formControlName="password"
+            class="form-control"
+            required="">
+        <button class="btn btn-success btn-block" [disabled]="!formLogin.valid || !submitted" (click)="login()" type="submit"><i class="fas fa-sign-in-alt"></i>Đăng nhập</button>
+    </form>
+</div>

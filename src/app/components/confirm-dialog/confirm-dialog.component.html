@@ -1,0 +1,11 @@
+<nb-card>
+    <nb-card-header>{{ title }}</nb-card-header>
+    <nb-card-body>
+     {{ body }}
+    </nb-card-body>
+    <nb-card-footer>
+      <button nbButton hero status="danger" (click)="dismiss()">Hủy</button>
+      <button nbButton hero status="primary" (click)="confirm()" style="float: right;">Đồng ý</button>
+    </nb-card-footer>
+  </nb-card>
+  

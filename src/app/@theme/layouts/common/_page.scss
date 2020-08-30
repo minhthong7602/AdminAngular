@@ -1,0 +1,85 @@
+.add-button-header {
+  text-align: end;
+  padding: 15px 15px;
+}
+
+.btn-update {
+  margin: 20px 10px 10px 10px;
+}
+
+nb-window {
+  nb-card-body {
+    overflow: scroll;
+    max-height: 85vh;
+  }
+}
+
+.ngx-datatable.material .datatable-body .datatable-body-row .datatable-body-cell {
+  padding: 0.5rem 1rem;
+}
+
+.nb-theme-default nb-menu .menu-item > .menu-items > .menu-item a {
+  padding: 0.5rem 1rem !important;
+}
+
+.nb-theme-default nb-card.size-small {
+  height: auto !important;
+}
+
+.transaction-history {
+  width: 50% !important;
+}
+
+.list-order-modal {
+  width: 80% !important;
+}
+
+.sort-btn:not([class*="datatable-icon-"]):before { font-family: data-table; content: "c"; }
+
+.active-status {
+  color: white;
+  text-align: center;
+  background: #00D68F;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.deactive-status {
+  color: white;
+  text-align: center;
+  background: #FF3D71;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.search-transaction {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.nb-theme-default [nbInput].status-basic:disabled {
+  color: black !important;
+}
+
+.nb-theme-default nb-select.appearance-outline.status-basic .select-button[disabled] {
+  color: black !important;
+}
+
+.datatable-row-wrapper:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.ngx-datatable.material:not(.cell-selection) .datatable-body-row:focus, .ngx-datatable.material:not(.cell-selection) .datatable-body-row:focus .datatable-row-group {
+  background-color: unset !important;
+}
+
+.ngx-datatable.material:not(.cell-selection) .datatable-body-row:hover, .ngx-datatable.material:not(.cell-selection) .datatable-body-row:hover .datatable-row-group { 
+  background-color: unset !important;
+}
+
+.order-successed {
+  background-color: yellow;
+}
+
+.contract-successed {
+  background-color: yellow;
+}
